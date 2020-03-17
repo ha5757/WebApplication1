@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMaster.master.cs" Inherits="WebApplication1.MyMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            position: fixed;
+            left: -369px;
+            top: 10px;
+            width: 131%;
+            height: 11%;
+        }
+        .auto-style2 {
+            position: fixed;
+            left: 27px;
+            top: 120px;
+            width: 20%;
+            height: 80%;
+        }
+        .auto-style3 {
+            height:80% ;
+            margin-top: 0px;
+        }
+        .auto-style4 {
+            position: fixed;
+            left: 362px;
+            top: 115px;
+            width: 80%;
+            height: 80%;
+        }
+        .auto-style5 {
+            height: 52px;
+            width: 1420px;
+        }
+    </style>
+</head>
+<body>
+    <div  class="auto-style2">
+        <ul>
+  <li><a href="home.aspx">Home</a></li>
+  <li><a href="aboutus.aspx">Aboutus</a></li>
+  <li><a href="services.aspx">Services</a></li>
+  <li><a href="login.aspx">Login</a></li>
+</ul>
+    </div>
+    <div style="background-color: #FFFF00" class="auto-style1">
+        <img src="images/elephy2.jpg" style="position:absolute;width:100%;height:100%" class="auto-style5" />
+    </div>
+        <div style="background-color: #FF99FF" class="auto-style4">
+    <form id="form1" runat="server">
+        <%--<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>--%>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        </div>
+<div class="auto-style3"></div>
+</body>
+</html>

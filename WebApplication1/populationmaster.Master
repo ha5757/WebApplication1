@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="populationmaster.master.cs" Inherits="WebApplication1.populationmaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            position: fixed;
+            left: -369px;
+            top: 10px;
+            width: 131%;
+            height: 11%;
+        }
+        .auto-style2 {
+            position: fixed;
+            left: 27px;
+            top: 120px;
+            width: 20%;
+            height: 80%;
+        }
+        .auto-style3 {
+            height:80% ;
+            margin-top: 0px;
+        }
+        .auto-style4 {
+            position: fixed;
+            left: 362px;
+            top: 115px;
+            width: 80%;
+            height: 80%;
+        }
+        .auto-style5 {
+            height: 52px;
+            width: 1420px;
+        }
+        .auto-style6 {
+            margin-right: 31px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/projectimg.png" />
+    </div>
+    <form id="form2" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
